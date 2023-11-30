@@ -169,6 +169,8 @@ section {
 }
 .effect label {
   font-size: 1.2rem;
+  color: #5a6168;
+  ;
 
   font-weight: 600;
   display: block;

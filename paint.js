@@ -64,7 +64,7 @@ const circle = (event) => {
   console.log("hihi");
   const width = pervCorX - event.offsetX;
   const height = pervCorY - event.offsetY;
-  
+
   let radius = Math.sqrt(width ** 2 + height ** 2);
   ctx.arc(pervCorX, pervCorY, radius, 0, 2 * Math.PI);
   if (fullColor.checked) return ctx.fill();
@@ -125,6 +125,9 @@ saveCanvas.addEventListener("click", () => {
   a.click();
 });
 
+// picture editor
+const editeH1 = document.querySelector(".editeH1");
 
-
-
+editeH1.addEventListener("click", () => {
+  console.log("hohohoho");
+});
