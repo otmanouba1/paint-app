@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="paint.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="section edite">
+            <div class="mini-container effect">
+                <label for="blur">blur</label>
+                <input type="range" class="blur" id="blur" max="100" min="1">
+
+                <label for="brightness">brightness</label>
+                <input type="range" class="brightness" id="brightness" max="100" min="1">
+
+                <label for="saturate">saturate</label>
+                <input type="range" class="saturate" id="saturate" max="100" min="1">
+
+                <label for="grayscale">grayscale</label>
+                <input type="range" class="grayscale" id="grayscale" max="100" min="1">
+
+                <label for="sepia">sepia</label>
+                <input type="range" class="sepia" id="sepia" max="100" min="1">
+
+                <label for="invert">invert</label>
+                <input type="range" class="invert" id="invert" max="100" min="1">
+
+
+            </div>
+            <div class="mini-container">
+
+            </div>
+            <div class="mini-container color">
+
+            </div>
+            <div class="mini-container buttons">
+
+                <input type="image">
+
+            </div>
+
+
+
+
+        </section>
+        <section class="drawing-canvas ">
+            <canvas class="canvas"></canvas>
+        </section>
+
+
+
+    </div>
+    <script src="paint.js"></script>
+</body>
+
+</html>

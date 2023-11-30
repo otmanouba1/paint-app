@@ -162,3 +162,18 @@ section {
 .drawing-canva {
   float: 1;
 }
+
+/* edite photo */
+.edite {
+  min-height: 500px;
+}
+.effect label { 
+  font-size: 1.2rem;
+ 
+  font-weight: 600;
+  display: block;
+}
+
+.effect input{ 
+  margin-bottom: 20px;
+}
